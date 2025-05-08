@@ -10,7 +10,9 @@
 // // createRoot(document.getElementById('root')).render();
 // ReactDOM.createRoot(document.getElementById("root")).render(f);
 
+//! Function Base Component
 
+/*
 import React from "react";
 import ReactDOM, { createRoot } from "react-dom/client";
 import App from "./App";
@@ -23,3 +25,23 @@ function demo(){
 }
 
 ReactDOM.createRoot(document.getElementById("root")).render(demo());
+*/
+
+//! Class Base Component
+
+import React from "react";
+import ReactDOM from "react-dom/client";
+import ClassBaseComponent from "./ClassBaseComponent";
+import MainSection from "./MainSection";
+
+function Web() {
+  return(
+    <>
+    <ClassBaseComponent/>
+    <MainSection/>
+    </>
+  )
+  
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(Web())
