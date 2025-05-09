@@ -31,14 +31,18 @@ ReactDOM.createRoot(document.getElementById("root")).render(demo());
 
 import React from "react";
 import ReactDOM from "react-dom/client";
-import ClassBaseComponent from "./ClassBaseComponent";
-import MainSection from "./MainSection";
+import Parent from "./Props/Parent";
+// import Child from "./Props/child";
+// import ClassBaseComponent from "./ClassBaseComponent";
+// import MainSection from "./MainSection";
 
 function Web() {
   return(
     <>
-    <ClassBaseComponent/>
-    <MainSection/>
+    {/* <ClassBaseComponent/>
+    <MainSection/> */}
+    {/* <Child/> */}
+    <Parent/>
     </>
   )
   

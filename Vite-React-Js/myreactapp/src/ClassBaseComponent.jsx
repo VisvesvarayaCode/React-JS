@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import "./Style.css"
-class ClassBaseComponent extends Component {
+export default class ClassBaseComponent extends Component {
     render(){
         return (
             <header>
@@ -23,4 +23,6 @@ class ClassBaseComponent extends Component {
         )
     }
 }
-export default ClassBaseComponent;
+
+
+
