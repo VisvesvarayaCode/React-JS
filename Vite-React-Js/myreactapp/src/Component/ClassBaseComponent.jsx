@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import "./Style.css"
+import "../Style.css"
 export default class ClassBaseComponent extends Component {
     render(){
         return (

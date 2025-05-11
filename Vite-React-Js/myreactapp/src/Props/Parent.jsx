@@ -1,11 +1,12 @@
 import React from "react";
-import Child from "./child";
+import Child from "./Child";
+
 
 
 function Parent(){
    return(
     <>
-    <Child name="Nitin" surname="Tambe"/>
+   <Child/>
     </>
    )
 }

@@ -1,13 +1,26 @@
 import React from "react";
 import "./style.css"
+import FunctionBaseComponent from "./Component/FunctionBaseComponent";
+import ProductData from "./Props/ProductData";
+import ItemData from "./Props/ItemData";
+import Parent from "./Props/Parent";
+import ClassBaseComponent from "./Component/ClassBaseComponent";
+import Counter from "./State/Counter";
 
 function App() {
   return(
     <>
-    <h1>This is heading</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem iure unde facilis explicabo corporis rerum quas accusamus quibusdam consequuntur fugit, quae repellat reiciendis magni fuga maiores corrupti at consequatur repellendus eaque consectetur! Fugit, accusamus! Laborum.
-    </p>
+    {/* ------ Components ------  */}
+     {/* <FunctionBaseComponent/> */}
+     {/* <ClassBaseComponent/> */}
+
+     {/* ----- Props ----- */}
+     {/* <ProductData/> */}
+     {/* <ItemData/> */}
+     {/* <Parent/> */}
+
+     {/* States */}
+     <Counter/>
     </>
   )
 }
