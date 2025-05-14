@@ -8,6 +8,9 @@ import ClassBaseComponent from "./Component/ClassBaseComponent";
 import Counter from "./State/Counter";
 import ProductDetails from "./UseState/ProductDetails";
 import FlowersList from "./UseState/FlowersList";
+import Switch from "./UseEffect/Switch";
+import DarkLightMode from "./UseEffect/DarkLightMode";
+import TextChanger from "./UseEffect/Product";
 
 function App() {
   return(
@@ -26,7 +29,13 @@ function App() {
 
      {/* UseState Hook */}
      {/* <ProductDetails/> */}
-     <FlowersList/>
+     {/* <FlowersList/> */}
+
+     {/* ------- Use Effect --------- */}
+     {/* <Switch/> */}
+     {/* <DarkLightMode/> */}
+     <TextChanger/>
+
 
     </>
   )

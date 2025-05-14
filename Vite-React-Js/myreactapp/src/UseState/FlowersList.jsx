@@ -30,5 +30,4 @@ function FlowersList() {
         </div>
     );
 }
-
 export default FlowersList;
