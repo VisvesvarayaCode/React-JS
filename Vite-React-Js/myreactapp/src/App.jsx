@@ -1,16 +1,24 @@
 import React from "react";
 import "./style.css"
-import FunctionBaseComponent from "./Component/FunctionBaseComponent";
-import ProductData from "./Props/ProductData";
-import ItemData from "./Props/ItemData";
-import Parent from "./Props/Parent";
-import ClassBaseComponent from "./Component/ClassBaseComponent";
-import Counter from "./State/Counter";
-import ProductDetails from "./UseState/ProductDetails";
-import FlowersList from "./UseState/FlowersList";
-import Switch from "./UseEffect/Switch";
-import DarkLightMode from "./UseEffect/DarkLightMode";
-import TextChanger from "./UseEffect/Product";
+import ApiData from "./UseContext/ApiData";
+import ContextApi from "./UseContext/ContextApi";
+import Concept from "./UseRef/Concept";
+// import FunctionBaseComponent from "./Component/FunctionBaseComponent";
+// import ProductData from "./Props/ProductData";
+// import ItemData from "./Props/ItemData";
+// import Parent from "./Props/Parent";
+// import ClassBaseComponent from "./Component/ClassBaseComponent";
+// import Counter from "./State/Counter";
+// import ProductDetails from "./UseState/ProductDetails";
+// import FlowersList from "./UseState/FlowersList";
+// import Switch from "./UseEffect/Switch";
+// import DarkLightMode from "./UseEffect/DarkLightMode";
+// import AppFetchEffect from "./UseEffect/ApiFetchEffect";
+// import Demo from "./UseContext/Demo";
+// import PropsDrilling from "./UseContext/PropsDrilling";
+
+
+
 
 function App() {
   return(
@@ -34,7 +42,18 @@ function App() {
      {/* ------- Use Effect --------- */}
      {/* <Switch/> */}
      {/* <DarkLightMode/> */}
-     <TextChanger/>
+     {/* <TextChanger/> */}
+     {/* <AppFetchEffect/> */}
+        {/* <Demo/> */}
+    {/* <PropsDrilling/> */}
+    {/* <ContextApi>
+    <ApiData/>
+
+    </ContextApi> */}
+
+    <Concept/>
+  
+    
 
 
     </>
