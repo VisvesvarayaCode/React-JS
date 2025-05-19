@@ -6,6 +6,8 @@ import Concept from "./UseRef/Concept";
 import ButtonToggle from "./UseRef/ButtonToggle";
 import Factorial from "./UseMemo/factorial";
 import Home from "./CSS-Module/Home";
+import FactorialCalculator from "./UseMemo/FactorialData";
+import FibonacciCalculator from "./UseMemo/FibonacciMemo";
 // import Home from "./Styled-Component/Home";
 // import FunctionBaseComponent from "./Component/FunctionBaseComponent";
 // import ProductData from "./Props/ProductData";
@@ -61,9 +63,12 @@ function App() {
 
      {/* <Factorial/> */}
 
-     {/* <Home/> */}+
+     {/* <Home/> */}
 
-     <Home/>
+     {/* <Home/> */}
+
+     <FactorialCalculator/>
+     <FibonacciCalculator/>
     </>
   )
 }
