@@ -3,6 +3,10 @@ import "./style.css"
 import ApiData from "./UseContext/ApiData";
 import ContextApi from "./UseContext/ContextApi";
 import Concept from "./UseRef/Concept";
+import ButtonToggle from "./UseRef/ButtonToggle";
+import Factorial from "./UseMemo/factorial";
+import Home from "./CSS-Module/Home";
+// import Home from "./Styled-Component/Home";
 // import FunctionBaseComponent from "./Component/FunctionBaseComponent";
 // import ProductData from "./Props/ProductData";
 // import ItemData from "./Props/ItemData";
@@ -51,11 +55,15 @@ function App() {
 
     </ContextApi> */}
 
-    <Concept/>
-  
-    
+    {/* <Concept/> */}
 
+    {/* <ButtonToggle/> */}
 
+     {/* <Factorial/> */}
+
+     {/* <Home/> */}+
+
+     <Home/>
     </>
   )
 }
