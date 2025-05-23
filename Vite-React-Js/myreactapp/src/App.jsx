@@ -8,6 +8,7 @@ import Factorial from "./UseMemo/factorial";
 import Home from "./CSS-Module/Home";
 import FactorialCalculator from "./UseMemo/FactorialData";
 import FibonacciCalculator from "./UseMemo/FibonacciMemo";
+import Path from "./Router/Header";
 // import Home from "./Styled-Component/Home";
 // import FunctionBaseComponent from "./Component/FunctionBaseComponent";
 // import ProductData from "./Props/ProductData";
@@ -67,8 +68,13 @@ function App() {
 
      {/* <Home/> */}
 
-     <FactorialCalculator/>
-     <FibonacciCalculator/>
+     {/* <FactorialCalculator/>
+     <FibonacciCalculator/> */}
+
+
+
+    <Path/>
+
     </>
   )
 }
