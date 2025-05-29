@@ -37,13 +37,16 @@ function Login() {
       <form onSubmit={handleLogin}>
         <div>
           <input
-            type="text"
+            type="text"             
             placeholder="Username"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
             required
           />
         </div>
+                // input box:"Aks "
+                // live input box:"Aksh "
+
         <div style={{ marginTop: "1rem" }}>
           <input
             type="password"
@@ -62,3 +65,5 @@ function Login() {
 
 
 export default Login;
+
+

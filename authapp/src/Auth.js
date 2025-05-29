@@ -1,5 +1,4 @@
-export const isAuthenticated=()=>{
-    return 
-        localStorage.getItem("userToken")!==null;
-    
-}
+export const isAuthenticated = () => {
+    return localStorage.getItem("userToken") !== null;
+  };
+  
